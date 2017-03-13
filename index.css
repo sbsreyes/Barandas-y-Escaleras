@@ -1,0 +1,49 @@
+body{
+
+
+}
+.encabezado{
+  background: #263238;
+  border: 1px solid red;
+}
+
+.header{
+
+  display: flex;
+  justify-content: space-between;
+}
+.contenedor{
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.logo{
+  margin: 0;
+  padding: 0;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.menu li{
+  color: white;
+  text-align: center;
+}
+.menu a{
+  color: white;
+  margin: 10px;
+  text-align: center;
+}
+
+.menu li:after{
+  content: "|";
+}
+
+.menu li:first-child::before{
+  content: "|";
+}
