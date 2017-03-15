@@ -112,7 +112,7 @@ body{
   text-decoration: underline;
 }
 .portada{
-  background-image: url('images/186.jpg');
+  background-image: url('images/landing.jpg');
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
@@ -269,7 +269,7 @@ body{
 footer .social{
   margin-top: 80px;
   color: white;
-  font-size: 18px;
+  font-size: 15px;
   font-family: 'Nobile', sans-serif;
 }
 
@@ -291,6 +291,6 @@ footer .social i{
   text-align: center;
   color: white;
 }
-.ult a{
+.ult a:hover{
   text-decoration: underline;
 }
