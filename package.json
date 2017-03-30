@@ -1,0 +1,27 @@
+{
+  "name": "barandas",
+  "version": "0.0.1",
+  "description": "Está es la pagina principal de Barandas y escaleras, una compañia de chimeneas de bronce",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbsreyes/Barandas-y-Escaleras.git"
+  },
+  "author": "Juan Sebastian Reyes <sbsreyes.js@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sbsreyes/Barandas-y-Escaleras/issues"
+  },
+  "homepage": "https://github.com/sbsreyes/Barandas-y-Escaleras#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "pug": "^2.0.0-beta11"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-pug": "^3.3.0"
+  }
+}

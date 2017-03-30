@@ -1,0 +1,63 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title Barandas y Escaleras
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css')
+    link(rel='stylesheet', href='../index.css')
+    link(href='https://fonts.googleapis.com/css?family=Nobile', rel='stylesheet')
+  body
+    .encabezado
+      header.header.container
+        figure.logo
+          img(src='../assets/logo.png', alt='site-logo', width='150px')
+        ul.menu
+          li
+            a(href='index.html') Home
+          li
+            a(href='#') Sobre Nosotros
+          li
+            a(href='gallery.html') Galería
+    section#main-container
+    section#location.contenedor
+      .row
+        .col.s12.m6
+          iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.513524386946!2d-74.10182568468278!3d4.680431996600326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b133adb4143%3A0xdb4cfab72fc3a8d6!2sChimeneas+D'+Bronce!5e0!3m2!1ses-419!2ses!4v1489437431396", width='600', height='450', frameborder='0', style='border:0', allowfullscreen='')
+        .col.s12.m6
+          .info
+            span Avenida Boyacá # 66-16
+            br
+            strong Teléfono:
+            span  223-7404
+            br
+            strong E-mail:
+            span chimeneasdebronce@hotmail.com
+    section#footer.contenedor
+      footer.footer
+        .row.pie
+          .col.s6.m4.site1
+            img(src='../assets/logo.png', alt='site-logo', width='200px')
+            br
+            span Recibimos todas las tarjetas
+            br
+            section#credito
+              img.img-credit(src='../assets/credit.png', alt='credit')
+          .col.s12.m4
+          .col.s6.m4.social
+            i.icon-facebook-official
+            span
+              strong facebook/barandasyescaleras
+            br
+            i.icon-youtube
+            span  youtube/barandasyescaleras
+            br
+            i.icon-instagram
+            span  instagram/barandasyescaleras
+            br
+    .container
+      .row
+        .col.s12.ult
+          | Una compañía de:
+          a(href='http://chimeneasdebronce.com', target='_blank') Chimeneas D' Bronce
+    script(type='text/javascript', src='https://code.jquery.com/jquery-2.1.1.min.js')
+    script(type='text/javascript', src='js/materialize.min.js')
