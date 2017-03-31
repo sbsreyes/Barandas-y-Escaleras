@@ -1,12 +1,17 @@
 'use strict';
+
 const gulp = require('gulp'),
+      sass = require('gulp-sass'),
       dir = {
-        src: 'src',
-        dist: 'public'
+        src : 'src',
+        as : 'assets',
+        dest: 'public'
       };
 
-gulp.task('assets', ()=>{
+gulp.task('styles', ()=>{
   gulp
-    .src('assets/*')
-    .pipe(gulp.dest('public'));
-})
+    .src('index.scss')
+    .pipe(sass())
+    .pipe(rename('app.css'))
+    .pipe(gulp.dest(`${dir.dest}`));
+});
