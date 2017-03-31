@@ -4,7 +4,9 @@
   "description": "Está es la pagina principal de Barandas y escaleras, una compañia de chimeneas de bronce",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "img": "gulp img"
   },
   "repository": {
     "type": "git",
@@ -19,11 +21,16 @@
   "dependencies": {
     "express": "^4.15.2",
     "gulp-sass": "^3.1.0",
+    "imagemin-pngquant": "^5.0.0",
     "pug": "^2.0.0-beta11"
   },
   "devDependencies": {
+    "babelify": "^7.3.0",
+    "browserify": "^14.1.0",
     "gulp": "^3.9.1",
+    "gulp-imagemin": "^3.2.0",
     "gulp-pug": "^3.3.0",
-    "gulp-rename": "^1.2.2"
+    "gulp-rename": "^1.2.2",
+    "vinyl-source-stream": "^1.1.0"
   }
 }
